@@ -1,6 +1,6 @@
 Algoritmo Restaurante
 	Definir CH Como Entero
-	Definir PH, CA, TSC, TCC, costo, total, recargo Como Real
+	Definir PH, total, recargo, costo Como Real
 	Definir TH, TP Como Cadena
 	Escribir 'Ingresar Tipo de Hamburguesa: '
 	Leer TH
@@ -8,13 +8,13 @@ Algoritmo Restaurante
 	Leer CH
 	Escribir 'Ingresar el Precio de la Hamburguesa: '
 	Leer PH
-	Si (TH=='simple') Entonces
+	Si (TH =='simple') Entonces
 		costo <- 400
 	SiNo
-		Si (TH=='doble') Entonces
+		Si (TH =='doble') Entonces
 			costo <- 500
 		SiNo
-			Si (TH=='triple') Entonces
+			Si (TH =='triple') Entonces
 				costo <- 700
 			FinSi
 		FinSi
