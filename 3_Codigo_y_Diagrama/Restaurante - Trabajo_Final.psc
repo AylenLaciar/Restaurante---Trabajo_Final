@@ -27,7 +27,7 @@ Algoritmo Restaurante
 	Escribir 'Ingresar el Metodo de Pago: '
 	Leer TP
 	calc = costo * 0.5
-	recargo <- (costo*CH)+ + calc
+	recargo <- (costo*CH)+ calc
 	total <- costo*CH
 	Si (TP=='tarjeta') Entonces
 		Escribir 'El Total a pagar con Tarjeta es de: ', recargo
