@@ -1,3 +1,8 @@
+//TIPOS DE HAMBURGUESAS Y SUS PRECIOS:
+//simple = 400
+//doble = 500
+//triple = 700
+
 Algoritmo Restaurante
 	Definir CH Como Entero
 	Definir PH, total, recargo, costo Como Real
