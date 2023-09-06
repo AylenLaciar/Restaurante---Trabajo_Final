@@ -5,7 +5,7 @@
 
 Algoritmo Restaurante
 	Definir CH Como Entero
-	Definir PH, total, recargo, costo Como Real
+	Definir PH, total, recargo, costo,calc Como Real
 	Definir TH, TP Como Cadena
 	Escribir 'Ingresar Tipo de Hamburguesa: '
 	Leer TH
@@ -26,7 +26,8 @@ Algoritmo Restaurante
 	FinSi
 	Escribir 'Ingresar el Metodo de Pago: '
 	Leer TP
-	recargo <- (costo*CH)+(costo*0.05)
+	calc = costo * 0.5
+	recargo <- (costo*CH)+ + calc
 	total <- costo*CH
 	Si (TP=='tarjeta') Entonces
 		Escribir 'El Total a pagar con Tarjeta es de: ', recargo
